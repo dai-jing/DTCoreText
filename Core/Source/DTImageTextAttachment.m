@@ -118,8 +118,8 @@ static NSCache *imageCache = nil;
 				{
 					NSDictionary *attributes = [styles dictionaryOfCSSStyles];
 					
-					NSString *widthStr = attributes[@"width"];
-					NSString *heightStr = attributes[@"height"];
+					NSString *widthStr = attributes[@"yit-width"];
+					NSString *heightStr = attributes[@"yit-height"];
 					
 					if ([widthStr hasSuffix:@"px"] && [heightStr hasSuffix:@"px"])
 					{
